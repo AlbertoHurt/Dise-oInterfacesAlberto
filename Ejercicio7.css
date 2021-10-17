@@ -1,0 +1,46 @@
+/* Ejercicio 7a*/
+.eja{
+    background: #ffffff url("madrid.jpg") repeat;
+}
+#contenedor{
+    box-shadow: 10px 10px 5px black;
+    width: 12.5em;
+    height: 12.5em;
+    overflow: auto;				
+}
+.eja #contenedor img{
+    width: 13.75em;
+    height: 13.75em
+}
+
+
+/* Ejercicio 7b*/
+.ejb {
+    background: #ffffff url("madrid.jpg") no-repeat center; 
+	background-attachment: fixed;
+	min-height: 2000px;
+}
+#contenedorb{ 
+    box-shadow: 10px 10px 5px black;					
+    width: 12.5em;
+    height: 12.5em;
+    overflow: auto;				
+}
+.ejb #contenedorb img{
+    width: 13.75em;
+    height: 13.75em
+}
+
+
+/* Ejercicio 7c*/
+.ejc {
+    background: #ffffff url("madrid.jpg") no-repeat top center;			
+}
+#contenedorc{
+    box-shadow: 10px 10px 5px black;	
+    background-image: url("logo.png");	
+    background-size: contain;
+    width: 12.5em;
+    height: 12.5em;
+    overflow: auto;				
+}
