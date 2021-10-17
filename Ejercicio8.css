@@ -1,0 +1,29 @@
+body{
+    margin-left: 10px;
+}
+
+h1{
+    border: solid blue;
+    padding:0.5em;
+}
+
+h2{
+    border: solid violet;
+    padding-left: 0.5em;
+    margin-top: 0.75em;
+}
+
+ul {
+    border: solid yellow;
+}
+
+.primero > li{
+    line-height: 35px;
+}
+
+p{
+    
+    margin-bottom: 0; 
+    margin-top: 0;
+}
+
