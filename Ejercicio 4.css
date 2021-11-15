@@ -18,7 +18,7 @@ body{
 }
 
 .container > header {
-	grid-column: 3 / 9;
+	grid-column: 4 / 10;
 }
 
 .container > main {
@@ -30,5 +30,5 @@ body{
 }
 
 .container > footer {
-	grid-column: 4 / 8;
+	grid-column: 5 / 9;
 }
