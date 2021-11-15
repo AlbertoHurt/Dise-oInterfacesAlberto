@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 GRID</title>
+    <style>
+        body{
+            margin: 0 auto;
+        }
+        .contenedor{
+            width: 70%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 2fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-auto-rows: 2fr;
+            gap: 5px;
+           
+        }
+        .contenedor div{
+            border: 1px solid black;
+        }
+        .nums{
+            background-color: grey;
+        }   
+        .dioses{
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Dieses Primogeneos</h1>
+
+    <div class="contenedor">
+        <div class="nums">1</div>
+        <div class="dioses">Dios 1</div>
+        <div class="nums">2</div>
+        <div class="dioses">Dios 2</div>
+        <div class="nums">3</div>
+        <div class="dioses">Dios 3</div>
+        <div class="nums">4</div>
+        <div class="dioses">Dios 4</div>
+        <div class="nums">5</div>
+        <div class="dioses">Dios 5</div>
+        <div class="nums">6</div>
+        <div class="dioses">Dios 6</div>
+        <div class="nums">7</div>
+        <div class="dioses">Dios 7</div>
+        <div class="nums">8</div>
+        <div class="dioses">Dios 8</div>
+        <div class="nums">9</div>
+        <div class="dioses">Dios 9</div>
+        <div class="nums">10</div>
+        <div class="dioses"> Dios 10</div>
+    </div>
+    <br>
+
+    <div class="tabla2">
+        <div class="cajanums"> 
+            <div class="nums2">1</div>
+            <div class="nums2">2</div>
+            <div class="nums2">3</div>
+            <div class="nums2">4</div>
+            <div class="nums2">5</div>
+            <div class="nums2">6</div>
+            <div class="nums2">7</div>
+            <div class="nums2">8</div>
+            <div class="nums2">9</div>
+            <div class="nums2">10</div>
+        </div>
+        <div class="cajadios">
+            <div class="dioses2">dios 1</div>
+            <div class="dioses2">dios 2</div>
+            <div class="dioses2">dios 3</div>
+            <div class="dioses2">dios 4</div>
+            <div class="dioses2">dios 5</div>
+            <div class="dioses2">dios 6</div>
+            <div class="dioses2">dios 7</div>
+            <div class="dioses2">dios 8</div>
+            <div class="dioses2">dios 9</div>
+            <div class="dioses2">dios 10</div>
+        </div>
+    </div>
+
+</body>
+</html>
