@@ -1,0 +1,16 @@
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(6, 2.5rem)repeat(auto-fill, 6rem);
+    grid-template-rows: 9rem 9rem;
+    grid-auto-flow: column;
+    gap: 1em;    
+    background-color: lightskyblue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nums{
+    background-color: blue;
+    color: lightskyblue;
+}
