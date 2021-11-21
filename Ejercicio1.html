@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <style>
+        
+
+div.div {
+  background-color: aquamarine; 
+  margin-bottom: 20px;
+}
+
+ul, li {
+  padding: 0; 
+  list-style: none;
+}
+
+.ul1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: flex-end; 
+  height: 180px;
+}
+
+.ul2 {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-around;  
+  align-items: flex-end; 
+  height: 180px;
+}
+
+div.div ul li {
+  display: block;
+  width: 18%;     
+  background-color: orangered;
+  height: 3em;
+  line-height: 3em;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;      
+}
+    </style>
+</head>
+<body>
+    <div class="div">    
+        <ul class="ul1">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </div>
+      
+      <div class="div">    
+        <ul class="ul2">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </div>
+</body>
+</html>
