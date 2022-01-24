@@ -1,0 +1,22 @@
+h1 {			
+    display: block;	
+    animation-name: movimiento1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;				
+    animation-direction: alternate;	
+    animation-fill-mode: initial;
+}
+            
+@keyframes movimiento {
+    0% {transform: translateX(0) rotate(0);}			
+    100% {transform: translateX(100%) rotateX(2turn);}
+}
+
+@keyframes movimiento1 {
+    0% {transform: translateX(0) rotate(0);}
+    25% {transform: translateX(25%) rotatex(0.25turn);}	
+    50% {transform: translateX(50%) rotatex(0.5turn);}
+    75% {transform: translateX(75%) rotatex(0.75turn);}		
+    100% {transform: translateX(100%) rotateX(1turn);}
+}
